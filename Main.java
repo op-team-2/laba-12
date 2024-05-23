@@ -64,7 +64,6 @@ public class Main {
         institute.addFaculty(faculty1);
         institute.addFaculty(faculty2);
 
-        List<Student> allStudents = institute.getAllStudents();
-        return allStudents;
+        return institute.getAllStudents();
     }
 }
